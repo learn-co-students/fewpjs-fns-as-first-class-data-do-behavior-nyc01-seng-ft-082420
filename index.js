@@ -22,5 +22,5 @@ function greet(time) {
 }
 
 function displayMessage(string) {
-  document.getElementById("greeting").textContent = string;
+  document.getElementById("greeting").innerText = string;
 }
